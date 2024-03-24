@@ -6,7 +6,7 @@
     },
     "exported_at": "2024-03-25T12:00:00+00:00",
     "name": "Debian - Egg",
-    "author": "Your Name",
+    "author": "YusupKakuu",
     "description": "Run a Debian server in Pterodactyl!",
     "features": null,
     "docker_images": {
