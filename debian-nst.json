@@ -1,0 +1,31 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2024-03-25T12:00:00+00:00",
+    "name": "Debian - Egg",
+    "author": "Your Name",
+    "description": "Run a Debian server in Pterodactyl!",
+    "features": null,
+    "docker_images": {
+        "debian:latest": "debian:latest"
+    },
+    "file_denylist": [],
+    "startup": "./start.sh",
+    "config": {
+        "files": null,
+        "startup": "{\r\n    \"done\": \"Debian server is up and running!\",\r\n    \"userInteraction\": []\r\n}",
+        "logs": "{}",
+        "stop": "exit"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#!/bin/bash\n\necho 'Installing Debian server...'\n# Your installation commands here",
+            "container": "debian:latest",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": []
+}
